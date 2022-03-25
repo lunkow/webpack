@@ -31,3 +31,9 @@ npm run build
 npm run build -- --color
 npm run build -- --no-color
 npm run build -- --color --progress
+
+### Asset Management
+npm install --save-dev style-loader css-loader
+<!-- или вместо них может быть mini-css-extract-plugin -->
+
+
