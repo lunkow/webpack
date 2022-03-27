@@ -38,3 +38,5 @@ npm install --save-dev style-loader css-loader
 
 npm install --save-dev csv-loader xml-loader
 <!-- json loader is installed by default (but only for Default Export). Use: import Data from './data.json' -->
+
+npm install --save-dev toml yamljs json5
