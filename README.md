@@ -36,4 +36,5 @@ npm run build -- --color --progress
 npm install --save-dev style-loader css-loader
 <!-- или вместо них может быть mini-css-extract-plugin -->
 
-
+npm install --save-dev csv-loader xml-loader
+<!-- json loader is installed by default (but only for Default Export). Use: import Data from './data.json' -->
