@@ -42,3 +42,8 @@ npm install --save-dev csv-loader xml-loader
 npm install --save-dev toml yamljs json5
 
 npm uninstall css-loader csv-loader json5 style-loader toml xml-loader yamljs
+
+## Output Management
+npm install --save-dev html-webpack-plugin
+<!-- https://github.com/jantimon/html-webpack-plugin -->
+
