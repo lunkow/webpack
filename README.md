@@ -47,3 +47,6 @@ npm uninstall css-loader csv-loader json5 style-loader toml xml-loader yamljs
 npm install --save-dev html-webpack-plugin
 <!-- https://github.com/jantimon/html-webpack-plugin -->
 
+## Development
+<!-- https://blog.teamtreehouse.com/introduction-source-maps - about Source Maps -->
+
