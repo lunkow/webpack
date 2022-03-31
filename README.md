@@ -50,3 +50,4 @@ npm install --save-dev html-webpack-plugin
 ## Development
 <!-- https://blog.teamtreehouse.com/introduction-source-maps - about Source Maps -->
 
+npm run watch
