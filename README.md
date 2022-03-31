@@ -57,3 +57,7 @@ npm install --save-dev webpack-dev-server
 npm start
 <!-- https://webpack.js.org/configuration/dev-server/ -->
 
+npm install --save-dev express webpack-dev-middleware
+
+npm run server
+
