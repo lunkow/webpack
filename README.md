@@ -66,3 +66,9 @@ npm run server
 npm uninstall express html-webpack-plugin webpack-dev-middleware webpack-dev-server
 
 npm run build
+
+<!-- optimization.runtimeChunk: 'single' необходим, иначе получим проблемы как тут: 
+        https://bundlers.tooling.report/code-splitting/multi-entry/ -->
+
+
+<!-- Хотя использование нескольких точек входа для одной страницы разрешено в webpack, по возможности этого следует избегать в пользу точки входа с несколькими импортами: entry: { page: ['./analytics', './app'] }. Это приводит к лучшей оптимизации и последовательному порядку выполнения при использовании тегов асинхронных сценариев. -->
