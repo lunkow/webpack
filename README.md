@@ -32,7 +32,7 @@ npm run build -- --color
 npm run build -- --no-color
 npm run build -- --color --progress
 
-### Asset Management
+## Asset Management
 npm install --save-dev style-loader css-loader
 <!-- или вместо них может быть mini-css-extract-plugin -->
 
@@ -61,3 +61,8 @@ npm install --save-dev express webpack-dev-middleware
 
 npm run server
 
+## Code Splitting
+<!-- preparing - back to the end of first chapter -->
+npm uninstall express html-webpack-plugin webpack-dev-middleware webpack-dev-server
+
+npm run build
